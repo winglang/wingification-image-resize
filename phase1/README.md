@@ -1,3 +1,6 @@
+<img width="843" alt="image" src="https://github.com/winglang/wingification-image-resize/assets/1727147/dadc05b6-b146-415a-a910-696212ecfacd">
+
+
 In this phase we are going to focus on getting the application to work using python Lambda (`bring python`) with minimal 
 
 
