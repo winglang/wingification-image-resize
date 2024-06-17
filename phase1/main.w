@@ -6,9 +6,9 @@ bring fs;
 let initialImage = new cloud.Bucket() as "media-app-initial-image";
 let resizedImage = new cloud.Bucket() as "media-app-resized-image";
 
-initialImage.onCreate(new python.InflightBucketEvent(
+initialImage.onEvent(new python.InflightBucketEvent(
   path: fs.join(@dirname, "python"),
-  handler: "main.bucket_oncreate_handler",
+  handler: "main.lambda_handler",
   lift: {
     "media-app-initial-image": {
       obj: initialImage,

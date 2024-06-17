@@ -10,3 +10,4 @@ In this phase we are going to focus on getting the application to work using pyt
 - No bucket name (https://github.com/winglang/wing/issues/6725)
 - No ability to create a folder 
 - No Queue name (https://github.com/winglang/wing/issues/6727)
+- No way to download a file from a bucket in binary mode
